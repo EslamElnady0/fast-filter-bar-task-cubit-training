@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:training/cubit/cubit/filterBarCubit/filterbarcubit_cubit.dart';
 import 'package:training/info.dart';
-import 'package:training/Screens/textfield.dart';
+import 'package:training/Screens/cubitScreens/textfield.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

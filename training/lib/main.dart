@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:training/cubit/cubit/TrainingCubit/cubit/training_cubit.dart';
 import 'package:training/cubit/cubit/filterBarCubit/filterbarcubit_cubit.dart';
 import 'package:training/cubit/cubit/visibilitycubit/cubit/visibilty_cubit.dart';
-import 'package:training/Screens/home_page.dart';
+import 'package:training/Screens/cubitScreens/home_page.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'cubit/cubit/radiocubit/radio_cubit.dart';
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         BlocProvider(create: ((context) => FilterbarCubit())),
         BlocProvider(create: ((context) => VisibiltyCubit())),
         BlocProvider(create: ((context) => RadioCubit())),
+        BlocProvider(create: ((context) => TrainingCubit()))
       ],
       child: const MaterialApp(
         title: 'Flutter Demo',

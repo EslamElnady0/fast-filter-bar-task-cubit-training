@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:training/Screens/radio.dart';
+import 'package:training/Screens/cubitScreens/radio.dart';
 
-import '../cubit/cubit/visibilitycubit/cubit/visibilty_cubit.dart';
+import '../../cubit/cubit/visibilitycubit/cubit/visibilty_cubit.dart';
 
 class TextFieldVisibilty extends StatelessWidget {
   const TextFieldVisibilty({super.key});
